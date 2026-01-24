@@ -25,3 +25,7 @@ public class solution {
         System.out.println("The number of set bits is: " + result);
     }
 }
+
+
+// Time complexity = log Start^goal base 2
+// Space complexity = 1
