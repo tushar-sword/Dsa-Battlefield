@@ -1,4 +1,4 @@
-package BitManipulation.Interview.CountNoOddlyPresent;
+package BitManipulation.Interview.FindNoOddlyPresent;
 
 public class Optimal {
 
