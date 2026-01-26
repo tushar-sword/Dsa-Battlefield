@@ -1,4 +1,4 @@
-package SlideWindowTwoPointers.FruitInBasket;
+package SlideWindowTwoPointers.MediumLevel.FruitInBasket;
 
 import java.util.HashMap;
 import java.util.Map;
