@@ -31,7 +31,7 @@ public class optimal {
                 L++;
             } else {
                 // valid window
-                maxlen = Math.max(maxlen, R - L + 1);
+                maxlen = Math.max(maxlen, R - L + 1); //Even if We are decrease with L we are not calculating the maxlen because there is no need 
                 R++; // move R only when window is valid
             }
 
