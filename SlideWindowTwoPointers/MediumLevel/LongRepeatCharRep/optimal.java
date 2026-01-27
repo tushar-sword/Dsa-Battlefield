@@ -25,17 +25,20 @@ public class optimal {
             //ab replace nikalo jitne bhi hue maxFreq usse
             int replace = (R-L+1) - maxFreq;
 
-            if(replace>k){
-                freq[s.charAt(L)-'A']--;
+            if (replace > k) {
+                // shrink window (ONLY L moves)
+                freq[s.charAt(L) - 'A']--;
                 L++;
+            } else {
+                // valid window
+                maxlen = Math.max(maxlen, R - L + 1);
+                R++; // move R only when window is valid
             }
 
-            if(replace<=k){
-            maxlen = Math.max(maxlen,R-L+1);
-            }
-
-            R++;
         }
+
+          
+        
 
         System.out.println(maxlen);
     }
